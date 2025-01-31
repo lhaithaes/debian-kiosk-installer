@@ -7,7 +7,7 @@ apt-get update
 apt-get install \
 	unclutter \
     xorg \
-    chromium \
+    chromium-browser \
     openbox \
     lightdm \
     locales \
@@ -57,7 +57,7 @@ unclutter -idle 0.1 -grab -root &
 while :
 do
   xrandr --auto
-  chromium \
+  chromium-browser \
     --no-first-run \
     --start-maximized \
     --disable \
