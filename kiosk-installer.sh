@@ -67,7 +67,7 @@ do
     --disable-save-password-bubble \
     --disable-session-crashed-bubble \
     --incognito \
-    --kiosk "https://neave.tv/"
+    --kiosk "http://docker.aesseal.news:8080/en/node/1"
   sleep 5
 done &
 EOF
